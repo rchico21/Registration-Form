@@ -1,0 +1,45 @@
+/*
+FormResgistration.css
+*/
+
+body {
+    text-align-last: center;
+    background-color: #434343;
+    
+    padding: 85px;
+   
+}
+
+label {
+    color: #1d3a71;
+    margin-top: 15px;
+    padding: 10px 10px;
+    font-family: inherit;
+}
+
+h1 {
+    color: azure;
+    margin: 0;
+    font-family: inherit;
+}
+
+small {
+    color: white;
+    font-style: oblique;
+}
+
+div {
+    text-align: center;
+    background-color: lightblue;
+    margin: 20px auto;
+    padding: 50px;
+    position: relative;
+}
+
+h4 {
+    color: white;
+}
+
+em {
+    color: red;
+}

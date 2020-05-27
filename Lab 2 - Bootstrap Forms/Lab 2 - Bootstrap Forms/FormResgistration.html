@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="uft-8">
+
+    <title>
+        Forms
+    </title>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="FormResgistration.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1> Registration Form </h1>
+    </header>
+    <hr>
+    
+    <h4> Register now for a <em>FREE</em> trial of Netflix!!</h4>
+    
+    <form action = "http://cs3.calstatela.edu:8080/cs3220stu120/Lab2/RegistrationServlet" method = "post">
+        <div>
+            <label>Name: </label>
+            <input type="text" name="name" placeholder="Enter Full Name">
+            <br>
+            <label>Email: </label>
+            <input type="text" name="email" placeholder="Enter Email Address">
+            <br>
+            <label>Telephone #: </label>
+            <input type="tel" name="telephone" placeholder="Enter Telephone #">
+            <br>
+            <label>Password: </label>
+            <input type="password" name="password1" placeholder="Enter Password">
+            <br>
+            <label>Re-Enter Password: </label>
+            <input type="password" name="password2" placeholder="Enter Re-Enter Password">
+            <br>
+            <br>
+            <input type="submit" name="button" placeholder="Register"> 
+            <br>
+        </div>
+  </form>
+    <hr>
+
+    <small>
+        ****This is not a scam...****
+    </small>
+</body>
+
+
+</html>
